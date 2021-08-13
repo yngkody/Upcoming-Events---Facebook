@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB00627626C60C4900B24DAD /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = FB00627526C60C4900B24DAD /* mock.json */; };
+		FB00627826C6571400B24DAD /* Grouped-Data-Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00627726C6571400B24DAD /* Grouped-Data-Provider.swift */; };
 		FB7EE91726C5E89500C919B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EE91626C5E89500C919B8 /* AppDelegate.swift */; };
 		FB7EE91926C5E89500C919B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EE91826C5E89500C919B8 /* SceneDelegate.swift */; };
 		FB7EE91B26C5E89500C919B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EE91A26C5E89500C919B8 /* ContentView.swift */; };
@@ -15,6 +17,10 @@
 		FB7EE92326C5E89900C919B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7EE92126C5E89900C919B8 /* LaunchScreen.storyboard */; };
 		FB7EE92E26C5E89900C919B8 /* Upcoming_Events___FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EE92D26C5E89900C919B8 /* Upcoming_Events___FacebookTests.swift */; };
 		FB7EE93926C5E89900C919B8 /* Upcoming_Events___FacebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EE93826C5E89900C919B8 /* Upcoming_Events___FacebookUITests.swift */; };
+		FB7EE94B26C5E90300C919B8 /* JSON-Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EE94A26C5E90300C919B8 /* JSON-Manager.swift */; };
+		FB7EE94E26C5E93D00C919B8 /* Upcoming-Events-View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EE94D26C5E93D00C919B8 /* Upcoming-Events-View.swift */; };
+		FB7EE95226C5E97400C919B8 /* Event-Item-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EE95126C5E97400C919B8 /* Event-Item-Model.swift */; };
+		FB7EE95426C5EA4200C919B8 /* Event-Data-Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EE95326C5EA4200C919B8 /* Event-Data-Provider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB00627526C60C4900B24DAD /* mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
+		FB00627726C6571400B24DAD /* Grouped-Data-Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Grouped-Data-Provider.swift"; sourceTree = "<group>"; };
 		FB7EE91326C5E89500C919B8 /* Upcoming Events - Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Upcoming Events - Facebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7EE91626C5E89500C919B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB7EE91826C5E89500C919B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		FB7EE93426C5E89900C919B8 /* Upcoming Events - FacebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Upcoming Events - FacebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7EE93826C5E89900C919B8 /* Upcoming_Events___FacebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Upcoming_Events___FacebookUITests.swift"; sourceTree = "<group>"; };
 		FB7EE93A26C5E89900C919B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7EE94A26C5E90300C919B8 /* JSON-Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON-Manager.swift"; sourceTree = "<group>"; };
+		FB7EE94D26C5E93D00C919B8 /* Upcoming-Events-View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Upcoming-Events-View.swift"; sourceTree = "<group>"; };
+		FB7EE95126C5E97400C919B8 /* Event-Item-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Event-Item-Model.swift"; sourceTree = "<group>"; };
+		FB7EE95326C5EA4200C919B8 /* Event-Data-Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Event-Data-Provider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +111,11 @@
 		FB7EE91526C5E89500C919B8 /* Upcoming Events - Facebook */ = {
 			isa = PBXGroup;
 			children = (
-				FB7EE91626C5E89500C919B8 /* AppDelegate.swift */,
-				FB7EE91826C5E89500C919B8 /* SceneDelegate.swift */,
-				FB7EE91A26C5E89500C919B8 /* ContentView.swift */,
-				FB7EE91C26C5E89900C919B8 /* Assets.xcassets */,
+				FB7EE95026C5E95500C919B8 /* Models */,
+				FB7EE94F26C5E94700C919B8 /* Controllers */,
+				FB7EE94C26C5E91E00C919B8 /* Views */,
+				FB7EE94726C5E8D900C919B8 /* Providers */,
+				FB7EE94626C5E8B500C919B8 /* Resources */,
 				FB7EE92126C5E89900C919B8 /* LaunchScreen.storyboard */,
 				FB7EE92426C5E89900C919B8 /* Info.plist */,
 				FB7EE91E26C5E89900C919B8 /* Preview Content */,
@@ -134,6 +147,51 @@
 				FB7EE93A26C5E89900C919B8 /* Info.plist */,
 			);
 			path = "Upcoming Events - FacebookUITests";
+			sourceTree = "<group>";
+		};
+		FB7EE94626C5E8B500C919B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EE94A26C5E90300C919B8 /* JSON-Manager.swift */,
+				FB7EE91626C5E89500C919B8 /* AppDelegate.swift */,
+				FB7EE91826C5E89500C919B8 /* SceneDelegate.swift */,
+				FB7EE91C26C5E89900C919B8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB7EE94726C5E8D900C919B8 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				FB00627526C60C4900B24DAD /* mock.json */,
+				FB7EE95326C5EA4200C919B8 /* Event-Data-Provider.swift */,
+				FB00627726C6571400B24DAD /* Grouped-Data-Provider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		FB7EE94C26C5E91E00C919B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EE94D26C5E93D00C919B8 /* Upcoming-Events-View.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB7EE94F26C5E94700C919B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EE91A26C5E89500C919B8 /* ContentView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB7EE95026C5E95500C919B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EE95126C5E97400C919B8 /* Event-Item-Model.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +300,7 @@
 				FB7EE92326C5E89900C919B8 /* LaunchScreen.storyboard in Resources */,
 				FB7EE92026C5E89900C919B8 /* Preview Assets.xcassets in Resources */,
 				FB7EE91D26C5E89900C919B8 /* Assets.xcassets in Resources */,
+				FB00627626C60C4900B24DAD /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +328,11 @@
 				FB7EE91726C5E89500C919B8 /* AppDelegate.swift in Sources */,
 				FB7EE91926C5E89500C919B8 /* SceneDelegate.swift in Sources */,
 				FB7EE91B26C5E89500C919B8 /* ContentView.swift in Sources */,
+				FB00627826C6571400B24DAD /* Grouped-Data-Provider.swift in Sources */,
+				FB7EE95426C5EA4200C919B8 /* Event-Data-Provider.swift in Sources */,
+				FB7EE95226C5E97400C919B8 /* Event-Item-Model.swift in Sources */,
+				FB7EE94E26C5E93D00C919B8 /* Upcoming-Events-View.swift in Sources */,
+				FB7EE94B26C5E90300C919B8 /* JSON-Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
